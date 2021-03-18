@@ -1,0 +1,190 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: "Microsoft JhengHei Light",Verdana,"Times New Roman","Arial Black";
+    font-weight: bold;
+}
+section{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #f0f0f0;
+}
+.clear{
+    clear: both;
+}
+nav{
+    position: sticky;
+    width: 100%;
+    height: auto;
+    top: 0;
+    background-color: #83889e;
+    box-shadow: 0 -6px 20px 3px #cccccc;
+}
+nav >  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li{
+    position: relative;
+    float: left;
+    width: 12%;
+}
+nav li:first-child{
+    width: 40%;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+    text-decoration: none;
+}
+naav li :hover{
+    color: #b2b2b2;
+}
+
+.section-bg{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.section-bg header{
+    display: table;
+    height: 100%;
+    margin: auto;
+    padding: 100px;
+}
+.section-bg h1{
+    font-size: 3em;
+    display: table-cell;
+    vertical-align: middle;
+    color: #f9e498;
+    text-shadow: -1px 2px 8px #7d7d7d;
+}
+.section1{
+    height: 100vh;
+    background-image: url("daniel-korpai-oWiEeTIxYvk-unsplash.jpg");
+}
+.section2 {
+    background-image: url("element5-digital-h9eOO7W5m2s-unsplash.jpg");
+}
+.section-body{
+    width: 80%;
+    height: inherit;
+    margin: auto;
+    padding: 4em 0;
+}
+.section-photo{
+    width: 50%;
+    height: inherit;
+    float: left;
+}
+.section-text{
+    width: 50%;
+    height: inherit;
+    float: left;
+}
+.section-text p {
+    padding: 2em;
+    font-size: 2em;
+    font-weight: 200;
+}
+.section-img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.section-box{
+    float: left;
+    margin: 1.5%;
+    width: 30%;
+    height: auto;
+    box-shadow: 1px 2px 3px #cccccc;
+    text-align: center;
+    padding: 2em 0;
+}
+.section-box p {
+    font-weight: 300;
+}
+
+@media screen and (max-width: 767px){
+    body{
+        font-size: 12px;
+    }
+    .section-body{
+        width: 100%;
+        padding: 0;
+    }
+    .section-photo{
+        width: 100%;
+    }
+    .section-text{
+        width: 100%;
+    }
+    .section-box{
+        width: 47%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+
+    body{
+        font-size: 13px;
+    }
+    .section-body{
+        width: 90%;
+    }
+    .section-photo{
+        width: 40%;
+    }
+    .section-text{
+        width: 60%;
+    }
+    .section-text p {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
